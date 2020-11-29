@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 body{
   background-color: black;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .App {
@@ -41,7 +43,7 @@ input.volume{
   appearance: none;
   width: 10px; /* Set a specific slider handle width */
   height: 20px; /* Slider handle height */
-  background: #2196F3;
+  background: #838383;
   cursor: pointer; /* Cursor on hover */
 }
 
@@ -141,4 +143,10 @@ input:checked + .slider:before {
   box-shadow: 5px 5px 10px 2px;
   background-color: white;
   margin-top: 110px;
+}
+
+#author{
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
 }

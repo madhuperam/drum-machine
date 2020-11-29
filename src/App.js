@@ -194,6 +194,9 @@ class App extends React.Component{
               </label>
           </div>
         </div>
+        <div id="author">
+          <p>Designed and Coded by <br/> Madhurima Peram </p> 
+        </div>
       </div>
     )
   }
